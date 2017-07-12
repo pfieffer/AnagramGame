@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="np.com.ravipun.anagram.MainActivity">
+    tools:context="np.com.ravipun.anagram.MainActivity"
+    android:padding="10dp">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -17,12 +18,12 @@
             android:layout_height="wrap_content"
             android:text="@string/scrambled_word" />
 
-        <EditText
+        <TextView
             android:layout_weight="1"
             android:id="@+id/scrambled_word"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="none" />
+            android:textColor="@color/colorAccent" />
     </LinearLayout>
 
     <LinearLayout
@@ -60,6 +61,13 @@
             android:text="@string/new_word"
             android:layout_toRightOf="@+id/button_guess"/>
     </RelativeLayout>
+
+    <TextView
+        android:id="@+id/feedback_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:textColor="@color/colorAccent"/>
 
 
 </LinearLayout>

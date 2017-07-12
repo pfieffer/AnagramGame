@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Anagram</string>
-    <string name="scrambled_word">Scrambled Word</string>
-    <string name="guess">Your Guess</string>
+    <string name="scrambled_word">Scrambled Word:</string>
+    <string name="guess">Your Guess:</string>
     <string name="guess_proceed">Guess</string>
     <string name="new_word">New Word</string>
+    <string name="correct_ans">Correct! Try new word</string>
+    <string name="wrong_ans">Wrong! Try new word</string>
 </resources>
