@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/ravi/AndroidStudioProjects/Anagram/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/ravi/AndroidStudioProjects/Anagram/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1e14be1035638bd99f0f58f21cf15a829389116f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ravi/AndroidStudioProjects/Anagram/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f838039aebab9a8952968d3adba06beea14cbc2f">
+        <dex dex="/home/ravi/AndroidStudioProjects/Anagram/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8ea01ae6f46d6cdd9a3c63d18f05ad37314618ac/classes.dex" />
+    </item>
+
+</items>
