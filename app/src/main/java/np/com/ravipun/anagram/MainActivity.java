@@ -26,12 +26,7 @@ EditText scrambledWord, guessedWord;
         newWord = (Button) findViewById(R.id.button_new_word);
         guess = (Button) findViewById(R.id.button_guess);
 
-        Random rand = new Random();
-
-        int  n = rand.nextInt(44) + 0;  //generate random number from 0 to 44; 45 is the number of words in out StaticWordLibrary
-
-
-        scrambledWord.setText(StaticWordLibrary.getDefault().getScrambledWord(n));
+        generateRandomScrambledWord();
 
         guess.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,8 +38,14 @@ EditText scrambledWord, guessedWord;
         newWord.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                // TODO: 7/12/17
+                generateRandomScrambledWord();
             }
         });
+    }
+
+    private void generateRandomScrambledWord() {
+        Random rand = new Random();
+        int  n = rand.nextInt(44) + 0;  //generate random number from 0 to 44; 45 is the number of words in out StaticWordLibrary
+        scrambledWord.setText(StaticWordLibrary.getDefault().getScrambledWord(n));
     }
 }
